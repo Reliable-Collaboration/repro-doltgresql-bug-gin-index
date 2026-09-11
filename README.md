@@ -9,6 +9,8 @@ ERROR:  index method gin is not yet supported
 
 PostgreSQL 18.6 creates the same index, and `pg_indexes` lists it afterwards.
 
+Reported upstream: https://github.com/dolthub/doltgresql/issues/3329
+
 ## Reproduce it
 
 You need Docker and a POSIX shell: Linux, macOS, or Windows with WSL. The first run downloads the images.
